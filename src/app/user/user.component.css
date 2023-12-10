@@ -10,3 +10,7 @@ img {
   height: 128px;
   border-radius: 50%;
 }
+
+p {
+  font-size: 40px;
+}

@@ -13,4 +13,28 @@
   @if(favoriteGame !== ""){
   <p>{{ username }}'s Favorite Game is {{ favoriteGame }}</p>
   }
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, quos
+    corrupti ea unde id rem ratione provident tenetur itaque, similique qui
+    cumque velit officiis sequi saepe optio ex. Iusto, id?
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, quos
+    corrupti ea unde id rem ratione provident tenetur itaque, similique qui
+    cumque velit officiis sequi saepe optio ex. Iusto, id?
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, quos
+    corrupti ea unde id rem ratione provident tenetur itaque, similique qui
+    cumque velit officiis sequi saepe optio ex. Iusto, id?
+  </p>
+  <!-- @defer (on viewport) { -->
+  @defer {
+  <app-comments />
+  } @placeholder {
+  <p>Comments</p>
+  <!-- } @loading (minimum 1s) { -->
+  } @loading {
+  <p>Loading comments...</p>
+  }
 </section>
